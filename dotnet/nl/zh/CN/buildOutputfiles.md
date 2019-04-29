@@ -1,9 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-02-02"
-subcollection: "Dotnet"
+  years: 2015, 2018
+lastupdated: "2018-11-20"
 ---
 
 {:shortdesc: .shortdesc}
@@ -51,7 +50,7 @@ subcollection: "Dotnet"
 ## 使用 MSBuild 工具
 {: #msbuild}
 
-将 `<Content>` 元素添加到 `.csproj` 文件的 `<ItemGroup>` 元素。
+将 `<Content>` 元素添加到 `.csproj` 文件的 `<ItemGroup>` 元素中。
 ```
   <ItemGroup>
     <Content Include="wwwroot/**/*;Areas/**/Views/*;Views/*;appsettings.json">
