@@ -1,8 +1,9 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-07-09"
+  years: 2017, 2019
+lastupdated: "2019-10-08"
+subcollection: "liberty"
 
 ---
 
@@ -13,7 +14,7 @@ lastupdated: "2018-07-09"
 # Write secure Java web applications
 {: #secure_java_web_app}
 
-All web applications must be designed and coded with security in mind to avoid introducing severe security vulnerabilities.
+All web applications and their runtime environments must be designed and coded with security in mind to avoid introducing severe security vulnerabilities.  Review [Securing Liberty and its applications](https://www.ibm.com/support/knowledgecenter/en/SSEQTP_liberty/com.ibm.websphere.wlp.doc/ae/twlp_sec.html) to learn about implementing security best practices such as password encryption, authentication, and enabling secure communications.
 {: shortdesc}
 
 {{site.data.keyword.Bluemix}} provides a secure starter application to help you write more secure Liberty Java code and avoid most of the Cross-Site Scripting (XSS) issues. You may download this [secure starter application](https://github.com/IBM-Cloud/java-secure-app), build it and deploy it locally and on {{site.data.keyword.Bluemix_notm}}.
