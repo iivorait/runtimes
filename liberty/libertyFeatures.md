@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-07-09"
+lastupdated: "2019-11-21"
 subcollection: "liberty"
 
 ---
@@ -185,6 +185,7 @@ Skip to the section of the feature list by using the following index, or you can
 * microProfile-2.1
 * microProfile-2.2
 * microProfile-3.0
+* microProfile-3.2
 * mongodb-2.0
 * monitor-1.0
 
