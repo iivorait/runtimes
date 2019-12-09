@@ -3,7 +3,7 @@
 copyright:
   years: 2015, 2019
 
-lastupdated: "2019-11-06"
+lastupdated: "2019-11-21"
 
 ---
 
@@ -14,6 +14,11 @@ lastupdated: "2019-11-06"
 {: #latest_updates}
 
 ## A list of the latest updates in the Liberty buildpack.
+
+### November 21, 2019: Updated Liberty buildpack v3.39-20191121-1047
+
+* The default Liberty runtime GA version was changed to the `19.0.0.12` release.
+* The alternate Liberty runtime GA version is also the `19.0.0.12` release. 
 
 ### November 6, 2019: Updated Liberty buildpack v3.38-20191031-1433
 
