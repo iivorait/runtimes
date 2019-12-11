@@ -19,7 +19,7 @@ A list of the latest updates in the sdk-for-nodejs buildpack.
 
 ## December 11, 2019: Updated Node.js buildpack v4.1
 
-The SDK for Node.js buildpack v4.1 provides Node.js community versions v8.16.1, v8.16.2, v10.16.3, v10.17.0, v12.11.1, v12.13.0. The default is latest 10.x, so it is currently 10.17.0.  
+The SDK for Node.js buildpack v4.1 provides Node.js community versions v8.16.1, v8.16.2, v10.16.3, v10.17.0, v12.11.1, v12.13.0. The default is latest 10.x, so it is currently 10.17.0.  This buildpack is based on the community node.js buildpack [v1.7.3](https://github.com/cloudfoundry/nodejs-buildpack/releases/tag/v1.7.3).  
 
 ## September 24, 2019: Updated Node.js buildpack v4.0
 
