@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2019
-lastupdated: "2019-09-20"
+lastupdated: "2019-12-18"
 subcollection: "Dotnet"
 ---
 
@@ -13,6 +13,43 @@ subcollection: "Dotnet"
 {: #latest_updates}
 
 A list of the latest updates in the ASP.NET Core buildpack.
+
+## December 18, 2019: Updated the ASP.NET Core buildpack v2.5-20191209-1920
+This release includes version 2.3.2 of the dotnet-core Cloud Foundry buildpack.
+
+* Add support for .NET Aspnetcore 2.1.13
+* Add support for .NET Aspnetcore 2.1.14
+* Add support for .NET Aspnetcore 2.2.7
+* Add support for .NET Aspnetcore 2.2.8
+* Add support for .NET Aspnetcore 3.0.1
+* Add support for .NET Runtime 2.1.13
+* Add support for .NET Runtime 2.1.14
+* Add support for .NET Runtime 2.2.7
+* Add support for .NET Runtime 2.2.8
+* Add support for .NET Runtime 3.0.1
+* Add support for .NET SDK 2.1.509
+* Add support for .NET SDK 2.1.606
+* Add support for .NET SDK 2.1.802
+* Add support for .NET SDK 2.2.402
+* Add support for .NET SDK 3.0.100
+* Add support for .NET SDK 3.0.101
+* Remove support for .NET Aspnetcore 2.1.5
+* Remove support for .NET Aspnetcore 2.1.11
+* Remove support for .NET Aspnetcore 2.1.12
+* Remove support for .NET Aspnetcore 2.2.5
+* Remove support for .NET Aspnetcore 2.2.6
+* Remove support for .NET Aspnetcore 3.0.0-preview7.19365.7
+* Remove support for .NET Runtime 2.1.5
+* Remove support for .NET Runtime 2.1.11
+* Remove support for .NET Runtime 2.1.12
+* Remove support for .NET Runtime 2.2.5
+* Remove support for .NET Runtime 2.2.6
+* Remove support for .NET Runtime 3.0.0-preview7-27912-14
+* Remove support for .NET SDK 2.1.801
+* Remove support for .NET SDK 2.2.205
+* Remove support for .NET SDK 2.2.401
+* Remove support for .NET SDK 3.0.100-preview7-012821
+* Update Node.js version to 10.17.0
 
 ## September 20, 2019: Updated the ASP.NET Core buildpack v2.4-20190912-1554
 This release includes version 2.2.14 of the dotnet-core Cloud Foundry buildpack.
