@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2015, 2019
+  years: 2015, 2020
 
-lastupdated: "2019-11-21"
+lastupdated: "2020-01-09"
 
 ---
 
@@ -15,54 +15,60 @@ lastupdated: "2019-11-21"
 
 ## A list of the latest updates in the Liberty buildpack.
 
+### January 9, 2020: Updated Liberty buildpack v3.40-20200108-1523
+
+* The default Liberty runtime GA version is [19.0.0.12](https://openliberty.io/blog/2019/12/06/microprofile-32-health-metrics-190012.html) release.
+* The alternate Liberty runtime GA version `20.0.0.1` was added.
+* The IBM JRE version was updated to [8 SR6](https://developer.ibm.com/javasdk/2019/11/28/ibm-sdk-java-technology-edition-version-8-service-refresh-6/)
+
 ### November 21, 2019: Updated Liberty buildpack v3.39-20191121-1047
 
-* The default Liberty runtime GA version was changed to the `19.0.0.12` release.
-* The alternate Liberty runtime GA version is also the `19.0.0.12` release. 
+* The default Liberty runtime GA version was changed to the [19.0.0.12](https://openliberty.io/blog/2019/12/06/microprofile-32-health-metrics-190012.html) release.
+* The alternate Liberty runtime GA version is also the `19.0.0.12` release.
 
 ### November 6, 2019: Updated Liberty buildpack v3.38-20191031-1433
 
 * The default Liberty runtime GA version is [19.0.0.9](https://openliberty.io/blog/2019/09/13/microprofile-reactive-messsaging-19009.html) release.
-* The alternate Liberty runtime GA version `19.0.0.11` was added. 
+* The alternate Liberty runtime GA version `19.0.0.11` was added.
 * The AdoptOpenJDK OpenJ9 alternate JRE was updated to version 11.0.5+10_openj9-0.17.0.
 
 ### October 11, 2019: Updated Liberty buildpack v3.37-20191002-1726
 
 * The default Liberty runtime GA version is [19.0.0.9](https://openliberty.io/blog/2019/09/13/microprofile-reactive-messsaging-19009.html) release.
-* The alternate Liberty runtime GA version [19.0.0.10](https://openliberty.io/blog/2019/10/11/configure-logs-JSON-format-190010.html) was added. 
+* The alternate Liberty runtime GA version [19.0.0.10](https://openliberty.io/blog/2019/10/11/configure-logs-JSON-format-190010.html) was added.
 * The IBM JRE version was updated to [8 SR5 FP41](https://developer.ibm.com/javasdk/2019/09/26/ibm-sdk-java-technology-edition-version-8-service-refresh-5-fix-pack-41/)
 
 ### September 13, 2019: Updated Liberty buildpack v3.36-20190905-1704
 
 * The default Liberty runtime GA version was changed to the [19.0.0.9](https://openliberty.io/blog/2019/09/13/microprofile-reactive-messsaging-19009.html) release.
-* The alternate Liberty runtime GA version is also the `19.0.0.9` release. 
-* The IBM JRE version was updated to [8 SR5 FP40](https://developer.ibm.com/javasdk/2019/08/21/ibm-sdk-java-technology-edition-version-8-service-refresh-5-fix-pack-40/). 
+* The alternate Liberty runtime GA version is also the `19.0.0.9` release.
+* The IBM JRE version was updated to [8 SR5 FP40](https://developer.ibm.com/javasdk/2019/08/21/ibm-sdk-java-technology-edition-version-8-service-refresh-5-fix-pack-40/).
 
 ### August 17, 2019: Updated Liberty buildpack v3.35
 
 * The default Liberty runtime GA version is [19.0.0.6](https://openliberty.io/blog/2019/06/21/microprofile-rest-client-19006.html).
-* The alternate Liberty runtime GA version `19.0.0.8` was added. 
-* The default JRE is IBM Small footprint JRE version [8 SR5 FP37](https://developer.ibm.com/javasdk/2019/06/27/ibm-sdk-java-technology-edition-version-8-service-refresh-5-fix-pack-37/). 
+* The alternate Liberty runtime GA version `19.0.0.8` was added.
+* The default JRE is IBM Small footprint JRE version [8 SR5 FP37](https://developer.ibm.com/javasdk/2019/06/27/ibm-sdk-java-technology-edition-version-8-service-refresh-5-fix-pack-37/).
 * The AdoptOpenJDK OpenJ9 alternate JRE was updated to version 11.0.4+11_openj9-0.15.1.
 
 ### July 18, 2019: Updated Liberty buildpack v3.34
 
 * The default Liberty runtime GA version is [19.0.0.6](https://openliberty.io/blog/2019/06/21/microprofile-rest-client-19006.html).
-* The alternate Liberty runtime GA version is [19.0.0.7](https://openliberty.io/blog/2019/07/18/microprofile-30-developer-experience.html) was added. 
-* The IBM JRE version was updated to [8 SR5 FP37](https://developer.ibm.com/javasdk/2019/06/27/ibm-sdk-java-technology-edition-version-8-service-refresh-5-fix-pack-37/). 
+* The alternate Liberty runtime GA version is [19.0.0.7](https://openliberty.io/blog/2019/07/18/microprofile-30-developer-experience.html) was added.
+* The IBM JRE version was updated to [8 SR5 FP37](https://developer.ibm.com/javasdk/2019/06/27/ibm-sdk-java-technology-edition-version-8-service-refresh-5-fix-pack-37/).
 * The OpenJ9 version 11.03 alternate JRE was updated to version 11.0.3+7_openj9-0.14.3.
 
 ### June 14, 2019: Updated Liberty buildpack v3.33-20190619-1058
 
 * The default Liberty runtime GA version was changed to the [19.0.0.6](https://openliberty.io/blog/2019/06/21/microprofile-rest-client-19006.html) release.
-* The alternate Liberty runtime GA version is also the `19.0.0.6` release. 
-* The IBM JRE version was updated to [8 SR5 FP36](https://developer.ibm.com/javasdk/2019/05/31/ibm-sdk-java-technology-edition-version-8-service-refresh-5-fix-pack-36/). 
- 
+* The alternate Liberty runtime GA version is also the `19.0.0.6` release.
+* The IBM JRE version was updated to [8 SR5 FP36](https://developer.ibm.com/javasdk/2019/05/31/ibm-sdk-java-technology-edition-version-8-service-refresh-5-fix-pack-36/).
+
 ### May 17, 2019: Updated Liberty buildpack v3.32-20190523-1138
 
 * The default Liberty runtime GA version is [19.0.0.3](https://openliberty.io/blog/2019/03/28/microprofile22-liberty-19003.html).
 * The alternate Liberty runtime GA version [19.0.0.5](https://openliberty.io/blog/2019/05/24/java11-hotspot-19005.html) was added.  
-* The IBM JRE version was updated to 8 SR5 FP35. 
+* The IBM JRE version was updated to 8 SR5 FP35.
 * The OpenJ9 version 11.03 was added as an alternate JRE.  
 
 ### April 26, 2019: Updated Liberty buildpack v3.31-20190423-1354
@@ -79,7 +85,7 @@ lastupdated: "2019-11-21"
 * The alternate Liberty runtime GA version is also the `19.0.0.3` release.  
 * The Cloudant client libraries were updated to 2.15.0.
 * The IBM JRE version was updated to 8 SR5 FP30.  
-* Possible breaking change: Review the [Potential WebSphere Application Server problems when deployed behind a WebSphere-aware proxy server ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www-01.ibm.com/support/docview.wss?uid=ibm10879485) document to determine if your application is affected. This document includes the steps that are needed to resolve the issue. To resolve the issue, you will need to add a httpDispatcher directive with the trustedSensitiveHeaderOrigin attribute set to "*" and enableWelcomePage set to "false" to the server.xml. 
+* Possible breaking change: Review the [Potential WebSphere Application Server problems when deployed behind a WebSphere-aware proxy server ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www-01.ibm.com/support/docview.wss?uid=ibm10879485) document to determine if your application is affected. This document includes the steps that are needed to resolve the issue. To resolve the issue, you will need to add a httpDispatcher directive with the trustedSensitiveHeaderOrigin attribute set to "*" and enableWelcomePage set to "false" to the server.xml.
 
 ### March 1, 2019: Updated Liberty buildpack v3.29-20190223-2128
 
