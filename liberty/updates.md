@@ -3,7 +3,7 @@
 copyright:
   years: 2015, 2020
 
-lastupdated: "2020-01-09"
+lastupdated: "2020-02-07"
 
 ---
 
@@ -14,6 +14,13 @@ lastupdated: "2020-01-09"
 {: #latest_updates}
 
 ## A list of the latest updates in the Liberty buildpack.
+
+### February 7, 2020: Updated Liberty buildpack v3.41-20200207-0830
+
+* The default Liberty runtime GA version is [19.0.0.12](https://openliberty.io/blog/2019/12/06/microprofile-32-health-metrics-190012.html) release.
+* The alternate Liberty runtime GA version `20.0.0.2` was added.
+* The IBM JRE version was updated to [8 SR6FP5](https://developer.ibm.com/javasdk/2020/01/31/ibm-sdk-java-technology-edition-version-8-service-refresh-6-fix-pack-5/)
+* The AdoptOpenJDK OpenJ9 alternate JRE was updated to version 11.0.6_10_openj9-0.18.1.
 
 ### January 9, 2020: Updated Liberty buildpack v3.40-20200108-1523
 
