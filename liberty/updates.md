@@ -18,14 +18,22 @@ lastupdated: "2020-02-07"
 ### February 7, 2020: Updated Liberty buildpack v3.41-20200207-0830
 
 * The default Liberty runtime GA version is [19.0.0.12](https://openliberty.io/blog/2019/12/06/microprofile-32-health-metrics-190012.html) release.
-* The alternate Liberty runtime GA version `20.0.0.2` was added.
+* The alternate Liberty runtime GA version [20.0.0.2](https://openliberty.io/blog/2020/02/14/preview-microprofile-3-3-20002.html) was added.
+* The alternate Liberty runtime version `20.0.0.2` includes a fix for the [CVE-2019-12406 security vulnerability ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/support/pages/node/1288774).
+* The alternate Liberty runtime version `20.0.0.2` includes a fix for the [CVE-2019-4720 security vulnerability ![External link icon](../../icons/launch-glyph.svg "External link icon")]( https://www.ibm.com/support/pages/node/1285372).
+
+To use the alternate Liberty runtime set the following environment variables:
+```
+ibmcloud cf set-env <appName> JBP_CONFIG_LIBERTY "version: +"
+ibmcloud cf set-env <appName> IBM_LIBERTY_MONTHLY true
+```
 * The IBM JRE version was updated to [8 SR6FP5](https://developer.ibm.com/javasdk/2020/01/31/ibm-sdk-java-technology-edition-version-8-service-refresh-6-fix-pack-5/)
 * The AdoptOpenJDK OpenJ9 alternate JRE was updated to version 11.0.6_10_openj9-0.18.1.
 
 ### January 9, 2020: Updated Liberty buildpack v3.40-20200108-1523
 
 * The default Liberty runtime GA version is [19.0.0.12](https://openliberty.io/blog/2019/12/06/microprofile-32-health-metrics-190012.html) release.
-* The alternate Liberty runtime GA version `20.0.0.1` was added.
+* The alternate Liberty runtime GA version [20.0.0.1](https://openliberty.io/blog/2020/01/17/openshift-oauth-server-social-login-liberty-20001.html) was added.
 * The IBM JRE version was updated to [8 SR6](https://developer.ibm.com/javasdk/2019/11/28/ibm-sdk-java-technology-edition-version-8-service-refresh-6/)
 
 ### November 21, 2019: Updated Liberty buildpack v3.39-20191121-1047
