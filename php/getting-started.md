@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-08-12"
+  years: 2017, 2019, 2020
+lastupdated: "2020-02-18"
 
 ---
 
@@ -58,7 +58,7 @@ cd get-started-php
 1. Install dependencies.
 
   ```
-php composer.phar install
+composer install
   ```
 {: codeblock}
 
@@ -87,7 +87,7 @@ Open the manifest.yml file, and change the `name` from `GetStartedPHP` to your a
   ```
   {: codeblock}
 
-In this manifest.yml file, **random-route: true** generates a random route for your app to prevent your route from colliding with others.  If you choose to, you can replace **random-route: true** with **host: myChosenHostName**, supplying a host name of your choice.
+In this manifest.yml file, **random-route: true** generates a random route for your app to prevent your route from colliding with others.  If you choose to, you can replace **random-route: true** with **host: myChosenHostName**, supplying a host name of your choice (without the domain name).
 {: tip}
 
 ## Step 4: Deploy the app
@@ -165,7 +165,7 @@ CLOUDANT_PASSWORD=
   ```
   {: codeblock}
 
-2. Find your app in the {{site.data.keyword.Bluemix_notm}} [Resource List](https://cloud.ibm.com/resources). On the Service Details page for your app, click **Connections** in the sidebar. Click the {{site.data.keyword.cloudant_short_notm}} menu icon (**&hellip;**) and select **View credentials**.
+2. Find your app in the {{site.data.keyword.Bluemix_notm}} [Resource List](https://cloud.ibm.com/resources). On the Service Details page for your app, click **Service credentials** in the sidebar. Click **New credential** and then **Add**. Open the **View credentials** dropdown to reveal the credentials.
 
 3. Copy and paste values of the `CLOUDANT_HOST`, `CLOUDANT_USERNAME` and `CLOUDANT_PASSWORD` fields into the `.env` file and save the changes.  The result will be something like:
 
